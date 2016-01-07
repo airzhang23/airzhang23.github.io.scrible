@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div id="disqus_thread"></div>
 <script>
 /**
@@ -20,3 +21,17 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+=======
+<div class="block">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = "{{ site.disqus_shortname }}"; 
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+>>>>>>> d60260b49b00f6662144f5ca5d05c4def5ce5248
